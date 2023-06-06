@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_bg"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
+        style="@style/CustomCardViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        android:backgroundTint="@color/black_panel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/firstRow"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/AC"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:backgroundTint="@color/button_color"
+                android:text="AC"
+                android:textColor="@color/operation_color2"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/clear"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="28dp"
+                android:backgroundTint="@color/button_color"
+                android:text="C"
+                android:textColor="@color/operation_color2"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/sep"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="28dp"
+                android:backgroundTint="@color/button_color"
+                android:text="/"
+                android:textColor="@color/operation_color"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/mul"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="28dp"
+                android:backgroundTint="@color/button_color"
+                android:text="x"
+                android:textColor="@color/operation_color"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/secondRow"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="120dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btSeven"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:backgroundTint="@color/button_color"
+                android:text="7"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btEight"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="28dp"
+                android:backgroundTint="@color/button_color"
+                android:text="8"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btNine"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="28dp"
+                android:backgroundTint="@color/button_color"
+                android:text="9"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/minus"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="28dp"
+                android:backgroundTint="@color/button_color"
+                android:text="-"
+                android:textColor="@color/operation_color"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/thirdRow"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="210dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btFour"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:backgroundTint="@color/button_color"
+                android:text="4"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btFive"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="28dp"
+                android:backgroundTint="@color/button_color"
+                android:text="5"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btSix"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="28dp"
+                android:backgroundTint="@color/button_color"
+                android:text="6"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/plus"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="28dp"
+                android:backgroundTint="@color/button_color"
+                android:text="+"
+                android:textColor="@color/operation_color"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fourthRow"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="300dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btOne"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:backgroundTint="@color/button_color"
+                android:text="1"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btTwo"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="28dp"
+                android:backgroundTint="@color/button_color"
+                android:text="2"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btThree"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="28dp"
+                android:backgroundTint="@color/button_color"
+                android:text="3"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/res"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="28dp"
+                android:backgroundTint="@color/button_color"
+                android:text="="
+                android:textColor="@color/operation_color"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fiveRow"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="390dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dot"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:backgroundTint="@color/button_color"
+                android:text="."
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btZero"
+                style="@style/MyButtonStyle"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="28dp"
+                android:backgroundTint="@color/button_color"
+                android:text="0"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <EditText
+        android:id="@+id/edInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:gravity="right"
+        android:hint="0"
+        android:inputType="number|numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white_hint"
+        android:textSize="56dp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCardView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLastOperation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/edInput"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

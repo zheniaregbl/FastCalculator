@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_hint">#CEFFFFFF</color>
+    <color name="black_panel">#656565</color>
+    <color name="black_bg">#4B4A4A</color>
+    <color name="button_color">#4E4E4E</color>
+    <color name="operation_color">#FF5555</color>
+    <color name="operation_color2">#01EE8B</color>
+</resources>
